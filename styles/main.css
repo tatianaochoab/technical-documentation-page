@@ -4,7 +4,7 @@
 
 
 #container{
-    min-width: 100%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 230px 5fr;
     grid-auto-rows: minmax(100px, auto);
@@ -127,18 +127,29 @@
         display: inline-block;
     }
 
+    #navbar li a{
+        text-decoration: none;
+        color: #20300b;
+        font-family: 'Atma', cursive;
+        font-size: 10pt;
+        text-align: justify;
+        padding: 5px;
+    }
+
     #navbar li a:hover{
         text-decoration: none;
         color: #ebf5df;
         font-family: 'Atma', cursive;
         font-size: 10pt;
         text-align: justify;
-        padding: 10px;
+        padding: 5px;
         background: #375312;
     }
     
     #main-doc{
         margin-top: 130px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     
     #main-doc header{
